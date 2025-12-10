@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="logoff-removebg-preview.png" type="image/x-icon"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="logoff-removebg-preview.png" alt="ff" class="ff">
+        <ul class="menu">
+          <li>
+            <a href="#">SOBRE</a>
+            <i class="fa-solid fa-angle-down"></i>
+          </li>
+          <li><a href="#">NOTÍCIAS</a></li>
+          <li>
+            <a href="#">MÍDIA</a>
+            <i class="fa-solid fa-angle-down"></i>
+          </li>
+          <li><a href="#">SUPORTE</a></li>
+          <li>
+            <a href="#">FF UNIVERSE</a>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </li>
+        </ul>
+        </div>
+        <div class="spc">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-globe"></i>
+        <p class="pad">GRÁTIS PARA JOGAR</p>
+        </div>
+    </header>
+    <main>
+        <div class="img1">
+            <img src="garena02.png" alt="ff" class="img2">
+            <img src="google_play.b8a7e58.png" alt="gg" class="google">
+        </div>
+  <div class="news">
+  <h2>NOTÍCIAS <br>
+    RECENTES</h2>
+    <br>
+    <br>
+      <a href="#" class="al">VER TUDO <span class="color2"> >> </span></a>
+      <br>
+  <div class="imgs">
+      <div class="card">
+      <img src="https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202511/83d18ba64210415096ac47a9bb60be9a.png" alt="Campeonato Free Fire">
+      <p class="date">19/11/2025 | ANÚNCIOS</p>
+      <h3>A Buriram United Esports da Tailândia triunfa como nova campeã mundial do Free Fire</h3>
+      </div>
+      <div class="card">
+      <img src="https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202510/4c15e2a0cacd26a6656050c634e111da.jpg" alt="Arena de Fogo">
+      <p class="date">29/10/2025 | ANÚNCIOS</p>
+      <h3>Garena incendeia o palco das Finais Globais do Free Fire World Series 2025 com a campanha Arena de Fogo</h3>
+      </div>
+      <div class="card">
+      <img src="https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202510/7f6945032f7fc178e61dfb0946203405.png" alt="Notas da atualização">
+      <p class="date">29/10/2025 | NOTAS DA ATUALIZAÇÃO</p>
+      <h3>Notas da Atualização</h3>
+      </div>
+  </div>
+  </div>
+  <div class="hero">
+    <div class="hero-left">
+      <img src="full_logo.969f536.png" alt="Free Fire" class="hero-logo">
+    </div>
+
+    <div class="hero-right">
+      <img src="max_logo.b96cbd2.png" alt="Free Fire Max" class="hero-logo">
+    </div>
+  </div>
+  <div class="banner-ff">
+    <div class="texto-banner">
+      <a href="#">VER TODOS OS PERSONAGEM <span> >> </span></a>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <h1>ESCOLHA UM <BR> PERSONAGEM</h1>
+      <br><br>
+      <p>Preparado para curtir o BOOYAH com seu personagem favorito?</p>
+    </div>
+  </div>
+    <div class="banner-evento">
+      <div class="texto-evento">
+        <h2>EVENTO ESPECIAL</h2>
+        <h3>Fábula de Futebol</h3>
+        <p>Participe do evento com modos temáticos, conteúdos e itens especiais dentro do jogo.</p>
+      </div>
+    </div>
+    <div class="Esports">
+    <div class="texto-esports">
+      <h1>ESPORTS</h1>
+      <br>
+      <h3>Campeonato Mundial de Free Fire</h3>
+      <p>O Campeonato Mundial de Free Fire é um torneio <br>
+      global e presencial realizado pela Garena. Uma <br>
+      sequência de batalhas épicas entre as melhores <br>
+      equipes de Free Fire do mundo todo.</p>
+      <br><br>
+      <a href="#">VER TODOS OS PERSONAGEM <span> >> </span></a>
+    </div>
+  </div>
+    </main>
+  <footer class="rodape">
+  <div class="rodape-conteudo">
+    <img src="https://dl.dir.freefiremobile.com/common/web_event/official2/dist/client/img/garena_logo.b28b2b6.png" alt="Garena" class="logo-garena">
+    <div class="links-rodape">
+      <a href="#">Política de Privacidade</a>
+      <a href="#">Informação para Pais e Responsáveis</a>
+      <a href="#">Termos de Serviço</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+
+Css:
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+p{
+    color: gainsboro;
+    gap: 10px;
+}
+i{
+    color: gainsboro;
+}
+.pad{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orange;
+    color: black;
+}
+.ff{
+    width: 40px;
+    margin-left: 40px;
+}
+.spc{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 28px;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.menu a {
+  color: gainsboro;
+  text-decoration: none;
+  font-weight: 600;
+}
+.logo{
+    display: flex;
+    gap: 30px;
+}
+.img1 {
+    background-image: url(4c15e2a0cacd26a6656050c634e111da.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+.img2{
+    width: 300px;
+    height: auto;
+    margin-left: 100px;
+}
+.google{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.news{
+  padding: 50px 80px;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+.news h2{
+  font-size: 40px;
+}
+.imgs{
+  display: flex;
+  gap: 20px;
+}
+.card{
+  background-color: #ffffff;
+  width: 32%;
+  min-width: 260px;
+}
+.card img{
+  width: 100%;
+  display: block;
+}
+.card .date{
+  font-size: 12px;
+  color: gray;
+  padding: 8px 10px 0 10px;
+}
+.card h3{
+  font-size: 14px;
+  padding: 8px 10px 12px 10px;
+}
+.al{
+  text-align: right;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+.color2{
+    color: orange;
+}
+.hero{
+  height: 600px;
+  display: flex;
+}
+.hero-left{
+  flex: 1;
+  background-image: url('garena04.jpg');
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+.hero-right{
+  flex: 1;
+  background-image: url('garena06.jpg');
+  background-size: cover;
+  position: relative;
+}
+.hero-logo{
+  position: absolute;
+  bottom: 30px;
+  left: 200px;
+  width: 220px;
+}
+.banner-ff{
+  height: 600px;
+  background-image: url('garena03.png');
+  background-size: cover;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+.texto-banner{
+  color: black;
+  max-width: 400px;
+}
+.texto-banner p{
+    color: gray;
+}
+.texto-banner a{
+    color: black;
+    text-decoration: none;
+}
+.texto-banner span{
+    color: orange;
+}
+.texto-banner h1{
+    max-width: 400px;
+    font-size: 50px;
+}
+.banner-evento{
+  min-height: 97vh;                 
+  background-image: url('garena05.jpg'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;           
+  padding: 40px 24px;
+}
+.texto-evento{
+  max-width: 520px;
+  margin-left: auto;   
+  text-align: left;
+}
+.texto-evento h2{
+  font-size: 64px;
+  color: white;
+}
+.texto-evento h3{
+  font-size: 22px; 
+  color: white;
+}
+.texto-evento p{
+  font-size: 14px; 
+  color: white; 
+  max-width: 420px;
+}
+.Esports{
+  height: 600px;
+  background-image: url('garena03.png');
+  background-size: cover;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+.texto-esports{
+  color: black;
+  max-width: 400px;
+}
+.texto-esports p{
+    color: gray;
+}
+.texto-esports a{
+    color: black;
+    text-decoration: none;
+}
+.texto-esports span{
+    color: orange;
+}
+.texto-esports h1{
+    max-width: 400px;
+    font-size: 50px;
+}
+.rodape{
+  background-color: #111;   
+  padding: 30px 0;
+}
+.rodape-conteudo{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-garena{
+  height: 60px;             
+}
+.links-rodape a{
+  color: #ccc;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 40px;
+}
+.links-rodape a:hover{
+  color: #fff;
+}
